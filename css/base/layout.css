@@ -2,29 +2,26 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 .container > .short-row {
     width: 600px;
     margin-left: calc(50% - 300px);
 }
-
 .container > .row {
     display: inline-block;
     width: 1000px;
     margin-left: calc(50% - 500px);
 }
-
 .container > .columns {
     display: flex;
     justify-content: space-between;
 }
-.container > .columns > .column {
+.container > .columns> .column {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
-}
-.container > .columns > .right-column {
+}   
+.container > .columns> .right-column {
     width: 40%;
 }
 
@@ -60,4 +57,16 @@
         width: 100%;
         margin-left: 0;
     }
+}
+p {
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #333;
+}
+p > a {
+    color: #EA1E63;
+    text-decoration: none;
+}
+p > a:hover {
+    text-decoration: underline;
 }
