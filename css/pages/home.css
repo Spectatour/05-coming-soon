@@ -7,8 +7,10 @@
 @import '../3rd-party/font-awesome.min.css';
 
 /* components */
+@import '../components/button.css';
 @import '../components/clock.css';
 @import '../components/mouse.css';
+@import '../components/progress-bar.css';
 /* custom style below this coment line */
 
 /* hero */
@@ -27,6 +29,7 @@
     flex-direction: column;
     gap: 30px;
     text-align: center;
+    align-items: center;
 }
 
 .logo {
@@ -46,17 +49,15 @@
 /* main */ 
 
 
-
-
-
-
 /* footer */ 
-
+footer > .row {
+    position: relative;
+}
 footer.container {
     padding-top: 0;
 }
 
-.row.socials {
+.socials {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -78,4 +79,11 @@ footer.container {
 .socials > a:hover {
     background-color: #fff;
     color: #03a9f3;
+}
+
+.back-to-top {
+    position: absolute;
+    top: -1.2em;
+    right: -0.6em;
+    text-decoration: none;
 }
