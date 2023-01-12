@@ -49,10 +49,6 @@
 /* main */ 
 
 
-
-
-
-
 /* footer */ 
 footer > .row {
     position: relative;
@@ -87,7 +83,7 @@ footer.container {
 
 .back-to-top {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -1.2em;
+    right: -0.6em;
     text-decoration: none;
 }
