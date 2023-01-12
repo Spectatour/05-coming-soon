@@ -30,3 +30,26 @@
         width: 100%;
     }
 }
+
+.form.subscribe {
+    width: 100%;
+    padding: 5em 0;
+    justify-content: center;
+}
+
+.subscribe > input{
+    width: 100%;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+.subscribe > input::placeholder{
+    color: #fff;
+
+}
+.form.subscribe > .btn {
+    border-radius: 0;
+    padding: 0.8em 1.6em;
+}

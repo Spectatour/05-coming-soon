@@ -1,12 +1,12 @@
 .mouse {
-    width: 8em;
-    height: 13em;
+    width: 7em;
+    height: 12em;
     font-size: 5px;
     border: 1em solid #fff;
     border-radius: 4em;
     position: absolute;
     margin: 0 auto;
-    bottom: 3em;
+    bottom: 1.5em;
     left: 50%;
     transform: translate(-50%);
 }
