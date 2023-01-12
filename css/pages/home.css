@@ -93,3 +93,21 @@ footer.container {
     right: -0.6em;
     text-decoration: none;
 }
+footer > .short-row {
+    text-align: center;
+}
+footer > .short-row > a > .logo {
+    margin: 30px 0;
+}
+footer > .short-row > p {
+    font-size: 14px;
+    color: #C9F0FF;
+}
+footer > .short-row > p:first-of-type {
+    font-size: 14px;
+    color: #81DDFF;
+}
+.short-row > p > a {
+    font-size: 14px;
+    color: #fff;
+}
