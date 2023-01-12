@@ -4,7 +4,11 @@
     font-size: 3px;
     border: 1em solid #fff;
     border-radius: 4em;
-    position: relative;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 3em;
+    left: 50%;
+    transform: translate(-50%);
 }
 .mouse::before {
     content: '';
