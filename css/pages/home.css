@@ -111,3 +111,9 @@ footer > .short-row > p:first-of-type {
     font-size: 14px;
     color: #fff;
 }
+footer > div > p > span::before,
+footer > div > p > span::after {
+    content: '';
+    border: 1px solid #fff;
+    margin: 0 5px;
+}
