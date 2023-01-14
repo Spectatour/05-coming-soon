@@ -4,9 +4,8 @@
     font-size: 5px;
     border: 1em solid #fff;
     border-radius: 4em;
-    position: absolute;
-    margin: 0 auto;
-    bottom: 1.5em;
+    position: relative;
+    bottom: 1em;
     left: 50%;
     transform: translate(-50%);
 }
